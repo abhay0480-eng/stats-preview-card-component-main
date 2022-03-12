@@ -16,9 +16,10 @@
 .card-container {
   background-color: hsl(244, 38%, 16%);
   min-width: 80%;
-  height: 350px;
+  height: auto;
   margin: auto;
   display: flex;
+  border-radius: 10px;
 }
 .image-right {
   min-width: 50%;
@@ -26,12 +27,15 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 0px 10px 10px 0px;
 }
 
 h1 {
   color: white;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 span {
@@ -39,9 +43,33 @@ span {
 }
 
 .para {
-  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
   font-family: "Inter", sans-serif;
   font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 2em;
+  margin-bottom: 30px;
 }
 /* font-family: 'Lexend Deca', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
+.text-left {
+  padding: 40px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.numbers {
+  font-size: 22px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+
+.numberNames {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
